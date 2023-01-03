@@ -15,6 +15,7 @@ public class JMSConfig {
     public static final String textMsgQueue = "text.messagequeue";
 
     // white space
+    // white space 2
     @Bean
     public Queue textMessageQueue(){
         return new ActiveMQQueue(textMsgQueue);
