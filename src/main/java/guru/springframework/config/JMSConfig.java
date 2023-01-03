@@ -16,6 +16,7 @@ public class JMSConfig {
 
     // white space
     // white space 2
+    // white space 3
     @Bean
     public Queue textMessageQueue(){
         return new ActiveMQQueue(textMsgQueue);
